@@ -1,5 +1,6 @@
 <template>
   <link type="image/png" sizes="16x16" rel="icon" :href="require('@/assets/favicon.png')" >
+  <title>HTML Elements Reference</title>
   <nav-bar/>
   <home-page/>
 </template>
@@ -13,7 +14,10 @@ export default {
   components: {
     NavBar,
     HomePage,
-  }
+  },
+  mounted() {
+      document.title = "Welcome to my page"
+  },
 }
 </script>
 
