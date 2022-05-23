@@ -1,4 +1,5 @@
 <template>
+  <link type="image/png" sizes="16x16" rel="icon" :href="require('@/assets/favicon.png')" >
   <nav-bar/>
   <home-page/>
 </template>
